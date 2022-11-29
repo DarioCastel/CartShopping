@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    font-family: 'Teko', sans-serif;
+    background: linear-gradient(30deg,rgb(0, 255, 255),rgb(255, 255, 255),rgb(0, 250, 250));
+
+}
+.divMain{
+    margin: 0;
+    padding: 0;
+    .containerCart{
+        padding: 2rem;
+        
+    }
+.grid-response{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(380px,1fr));
+    gap: 1rem;
+}
+}
+
